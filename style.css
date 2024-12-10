@@ -46,6 +46,11 @@ body{
     font-size: 1.8rem;
     color: #d35d6e;
 }
+@media (max-width: 768px) {
+    .brand-name {
+        display: none; 
+    }
+}
 
 .nav-links-container {
     display: flex;
@@ -92,6 +97,7 @@ body{
         margin-top: 60px;
         width: 100vw;
         height: 50vh;
+        
     }
 }
 .list{
